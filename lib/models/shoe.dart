@@ -11,7 +11,22 @@ class Shoe {
       required this.description});
 }
 
-List<Shoe> userCart = [];
+List<Shoe> userCart = [
+  Shoe(
+    name: 'Giannis Freak 4',
+    price: '\$99.99',
+    imagePath: 'lib/images/zoomfreak.png',
+    description:
+        'Giannis is an incessant storm of stamina and skill that keeps coming at opponents for 4 quarters or more. ',
+  ),
+  Shoe(
+    name: 'Nike Kyrie 7',
+    price: '\$200',
+    imagePath: 'lib/images/kyrie.ong.jpeg',
+    description:
+        'The Kyrie 7 came out in 2020 with new tools. The Kyrie 7 features special techniques such as a 360-degree traction pattern, which allows players to maintain control.',
+  ),
+];
 
 List<Shoe> shoeLists = [
   Shoe(
